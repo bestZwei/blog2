@@ -2,7 +2,6 @@
 title: SPOOLing 模拟共享打印机
 published: 2024-07-05
 description: 操作系统课程设计答辩稿
-image: ./src/assets/images/default.png
 tags: [技术, 操作系统]
 category: 技术
 draft: false

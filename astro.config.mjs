@@ -1,49 +1,47 @@
 import sitemap from '@astrojs/sitemap';
-import svelte from "@astrojs/svelte"
-import tailwind from "@astrojs/tailwind"
+import svelte from "@astrojs/svelte";
+import tailwind from "@astrojs/tailwind";
 import swup from '@swup/astro';
-import Compress from "astro-compress"
-import icon from "astro-icon"
-import { defineConfig } from "astro/config"
-import cloudflare from '@astrojs/cloudflare';
-import Color from "colorjs.io"
-import rehypeAutolinkHeadings from "rehype-autolink-headings"
+import Compress from "astro-compress";
+import icon from "astro-icon";
+import { defineConfig } from "astro/config";
+import cloudflare from '@astrojs/cloudflare'; // 确保此模块已安装
+import Color from "colorjs.io";
+import rehypeAutolinkHeadings from "rehype-autolink-headings";
 import rehypeComponents from "rehype-components"; /* Render the custom directive content */
-import rehypeKatex from "rehype-katex"
-import rehypeSlug from "rehype-slug"
-import remarkDirective from "remark-directive" /* Handle directives */
+import rehypeKatex from "rehype-katex";
+import rehypeSlug from "rehype-slug";
+import remarkDirective from "remark-directive"; /* Handle directives */
 import remarkGithubAdmonitionsToDirectives from "remark-github-admonitions-to-directives";
-import remarkMath from "remark-math"
-import { AdmonitionComponent } from "./src/plugins/rehype-component-admonition.mjs"
-import { GithubCardComponent } from "./src/plugins/rehype-component-github-card.mjs"
-import {parseDirectiveNode} from "./src/plugins/remark-directive-rehype.js";
-import { remarkReadingTime } from "./src/plugins/remark-reading-time.mjs"
-import {remarkExcerpt} from "./src/plugins/remark-excerpt.js";
+import remarkMath from "remark-math";
+import { AdmonitionComponent } from "./src/plugins/rehype-component-admonition.mjs";
+import { GithubCardComponent } from "./src/plugins/rehype-component-github-card.mjs";
+import { parseDirectiveNode } from "./src/plugins/remark-directive-rehype.js";
+import { remarkReadingTime } from "./src/plugins/remark-reading-time.mjs";
+import { remarkExcerpt } from "./src/plugins/remark-excerpt.js";
 
 const oklchToHex = (str) => {
-  const DEFAULT_HUE = 250
-  const regex = /-?\d+(\.\d+)?/g
-  const matches = str.string.match(regex)
-  const lch = [matches[0], matches[1], DEFAULT_HUE]
+  const DEFAULT_HUE = 250;
+  const regex = /-?\d+(\.\d+)?/g;
+  const matches = str.match(regex); // 修复：从 str.string.match 改为 str.match
+  const lch = [matches[0], matches[1], DEFAULT_HUE];
   return new Color("oklch", lch).to("srgb").toString({
     format: "hex",
-  })
-}
+  });
+};
 
 // https://astro.build/config
 export default defineConfig({
   output: 'server',
-  adapter: cloudflare(),
-  site: "https://zwei.de.eu.org/",
+  adapter: cloudflare(), // 确保此模块已安装
+  site: "https://blog2-f3h.pages.dev/",
   base: "/",
   trailingSlash: "always",
   integrations: [
     tailwind(),
     swup({
       theme: false,
-      animationClass: 'transition-swup-',   // see https://swup.js.org/options/#animationselector
-                                            // the default value `transition-` cause transition delay
-                                            // when the Tailwind class `transition-all` is used
+      animationClass: 'transition-swup-', // see https://swup.js.org/options/#animationselector
       containers: ['main'],
       smoothScrolling: true,
       cache: true,
@@ -67,12 +65,19 @@ export default defineConfig({
       CSS: false,
       Image: false,
       Action: {
-        Passed: async () => true,   // https://github.com/PlayForm/Compress/issues/376
+        Passed: async () => true, // https://github.com/PlayForm/Compress/issues/376
       },
     }),
   ],
   markdown: {
-    remarkPlugins: [remarkMath, remarkReadingTime, remarkExcerpt, remarkGithubAdmonitionsToDirectives, remarkDirective, parseDirectiveNode],
+    remarkPlugins: [
+      remarkMath,
+      remarkReadingTime,
+      remarkExcerpt,
+      remarkGithubAdmonitionsToDirectives,
+      remarkDirective,
+      parseDirectiveNode,
+    ],
     rehypePlugins: [
       rehypeKatex,
       rehypeSlug,
@@ -133,4 +138,4 @@ export default defineConfig({
       },
     },
   },
-})
+});

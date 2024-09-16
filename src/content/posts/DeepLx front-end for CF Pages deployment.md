@@ -2,7 +2,6 @@
 title: CF Pages/Vercel部署基于Deeplx的翻译网页
 published: 2024-07-31
 description: Windows设备管理多个git账号
-image: ./src/assets/images/default.png
 tags: [技术, Pages, Deeplx, translate]
 category: 技术
 draft: false

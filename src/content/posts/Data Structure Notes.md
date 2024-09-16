@@ -2,7 +2,6 @@
 title: 数据结构笔记
 published: 2024-06-26
 description: 来源网络
-image: ./src/assets/images/default.png
 tags: [专业课, 笔记, 数据结构]
 category: 专业课
 draft: false
