@@ -3,7 +3,7 @@ title: 基于Deeplx的翻译网页
 published: 2024-07-31
 description: Windows设备管理多个git账号
 tags: [技术, Pages, Deeplx, translate]
-image: https://ipfs.cyou/ipfs/QmddEmBtfjbATDtfvCcLy5jfaWmd4NBZJxshWGVRztFdNN
+image: https://i0.img2ipfs.com/ipfs/QmddEmBtfjbATDtfvCcLy5jfaWmd4NBZJxshWGVRztFdNN
 category: Dev
 draft: false
 lang: zh_CN
