@@ -3,7 +3,7 @@ title: 基于 Deeplx 的翻译网页
 published: 2024-07-31
 description: LibreTranslator
 tags: [技术, Pages, Deeplx, translate]
-image: https://i0.img2ipfs.com/ipfs/QmddEmBtfjbATDtfvCcLy5jfaWmd4NBZJxshWGVRztFdNN
+image: https://pics.sputnik.cloudns.ch/file/bf4c270e2bfb23cc6a07e.png
 category: Dev
 draft: false
 lang: zh_CN
@@ -12,8 +12,6 @@ lang: zh_CN
 #### 项目地址：https://github.com/bestZwei/LibreTranslator
 
 #### 效果展示：https://fy.is-a.dev
-
-![jt](https://pics.sputnik.cloudns.ch/file/bf4c270e2bfb23cc6a07e.png)
 
 ### 部署
 

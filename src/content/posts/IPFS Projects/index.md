@@ -2,7 +2,7 @@
 title: 有趣的IPFS项目
 published: 2024-09-16
 description: "分享几个有趣的IPFS项目"
-image: "https://i0.img2ipfs.com/ipfs/QmQaUYrQ6ZcojPzAbLPfGeZmutLy1dDPndywqf6cxtdewq"
+image: ""
 tags: [去中心化, 图床, IPFS]
 category: Dev
 draft: false
