@@ -2,7 +2,7 @@
 title: 数据结构笔记
 published: 2024-06-26
 description: 来源网络
-image: https://cdn.jsdelivr.net/gh/bestZwei/imgs@master/picgo/20200506153411539.png
+image: https://testingcf.jsdelivr.net/gh/bestZwei/imgs@master/picgo/20200506153411539.png
 tags: [专业课, 笔记, 数据结构]
 category: Study
 draft: false
