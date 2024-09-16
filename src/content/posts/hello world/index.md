@@ -2,7 +2,7 @@
 title: 你好，世界
 published: 2024-06-26
 description: "第一篇博文，当然是 Hello world"
-image: "./su1993.jfif"
+image: "./bg-me-2022.jpg"
 tags: [你好, 日常]
 category: Examples
 draft: false
