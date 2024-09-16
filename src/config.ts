@@ -16,11 +16,11 @@ export const siteConfig: SiteConfig = {
   },
   banner: {
     enable: true,
-    src: 'assets/images/pdao.webp',   // Relative to the /src directory. Relative to the /public directory if it starts with '/'
+    src: 'assets/images/bg-me-2022.jpg',   // Relative to the /src directory. Relative to the /public directory if it starts with '/'
     position: 'center',      // Equivalent to object-position, only supports 'top', 'center', 'bottom'. 'center' by default
     credit: {
       enable: true,         // Display the credit text of the banner image
-      text: 'Hi, I am Zwei.',              // Credit text to be displayed
+      text: 'Zwei',              // Credit text to be displayed
       url: ''                // (Optional) URL link to the original artwork or artist's page
     }
   },
@@ -63,6 +63,11 @@ export const profileConfig: ProfileConfig = {
     //   icon: 'fa6-brands:steam',
     //   url: 'https://store.steampowered.com',
     // },
+    {
+      name: 'Email',
+      icon: 'fa6-regular:envelope',  
+      url: 'mailto:post@zwei.de.eu.org',  
+    },
     {
       name: 'GitHub',
       icon: 'fa6-brands:github',
