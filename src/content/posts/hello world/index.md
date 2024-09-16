@@ -2,7 +2,7 @@
 title: 你好，世界
 published: 2024-06-26
 description: "第一篇博文，当然是 Hello world"
-image: "https://i0.img2ipfs.com/ipfs/QmfE8KznoiZGE7JPpBoCcYK55XLCCctXi74VJbC29kg246?filename=text2img.png"
+image: "https://i0.img2ipfs.com/ipfs/QmQs3cAP9AdGLsyFNa7RnWKn5bK5Sum2vVZcrcPeKdwjdV"
 tags: [你好, 日常]
 category: Examples
 draft: false
