@@ -2,6 +2,7 @@
 title: 数据结构笔记
 published: 2024-06-26
 description: 来源网络
+image: https://cdn.jsdelivr.net/gh/bestZwei/imgs@master/picgo/20200506153411539.png
 tags: [专业课, 笔记, 数据结构]
 category: Study
 draft: false
@@ -774,4 +775,3 @@ First Out）
 * 树的先序遍历等于它对应二叉树的先序遍历，后序遍历等于它对应的二叉树的中序遍历
 * 概要: 例子
 
-![openaiassets_c1af1a2f01e9e1e4510a6d57474fad6e_2579861719409486486.png](https://openai-75050.gzc.vod.tencent-cloud.com/openaiassets_c1af1a2f01e9e1e4510a6d57474fad6e_2579861719409486486.png)

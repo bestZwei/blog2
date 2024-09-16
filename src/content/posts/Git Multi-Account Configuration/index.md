@@ -3,7 +3,7 @@ title: Git多账号配置
 published: 2024-07-24
 description: Windows设备管理多个git账号
 tags: [技术, git]
-category: Skills
+category: Dev
 draft: false
 lang: zh_CN
 ---

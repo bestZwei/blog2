@@ -2,7 +2,7 @@
 title: 公益项目
 published: 2024-07-01
 description: AI、免费域名等
-image: ""
+image: "https://cdn.jsdelivr.net/gh/bestZwei/imgs@master/picgo/post-bg-css.jpg"
 tags: [公益, 日常]
 category: others
 draft: false
