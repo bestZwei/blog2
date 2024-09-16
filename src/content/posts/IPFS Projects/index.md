@@ -33,8 +33,10 @@ lang: zh_CN
 
 3. **IPFS-Telegraph（文章发布器）** 
 
-   https://noteshare.is-an.org
+   https://noteshare.is-an.org/#cdn.ipfsscan.io 
 
+   `/#cdn.ipfsscan.io` 是传递参数，选择网关
+   
    基于 Telegraph 前端，将内容发布在 IPFS 上。
 
 ---
