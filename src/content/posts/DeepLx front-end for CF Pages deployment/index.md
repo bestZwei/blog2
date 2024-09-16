@@ -1,7 +1,7 @@
 ---
-title: 基于Deeplx的翻译网页
+title: 基于 Deeplx 的翻译网页
 published: 2024-07-31
-description: Windows设备管理多个git账号
+description: LibreTranslator
 tags: [技术, Pages, Deeplx, translate]
 image: https://i0.img2ipfs.com/ipfs/QmddEmBtfjbATDtfvCcLy5jfaWmd4NBZJxshWGVRztFdNN
 category: Dev
