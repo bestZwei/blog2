@@ -5,6 +5,7 @@ import swup from '@swup/astro';
 import Compress from "astro-compress"
 import icon from "astro-icon"
 import { defineConfig } from "astro/config"
+import cloudflare from '@astrojs/cloudflare';
 import Color from "colorjs.io"
 import rehypeAutolinkHeadings from "rehype-autolink-headings"
 import rehypeComponents from "rehype-components"; /* Render the custom directive content */
@@ -31,7 +32,9 @@ const oklchToHex = (str) => {
 
 // https://astro.build/config
 export default defineConfig({
-  site: "https://fuwari.vercel.app/",
+  output: 'server',
+  adapter: cloudflare(),
+  site: "https://zwei.de.eu.org/",
   base: "/",
   trailingSlash: "always",
   integrations: [
