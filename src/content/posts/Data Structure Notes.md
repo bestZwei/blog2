@@ -3,7 +3,7 @@ title: 数据结构笔记
 published: 2024-06-26
 description: 来源网络
 tags: [专业课, 笔记, 数据结构]
-category: Posts
+category: Study
 draft: false
 lang: zh_CN
 ---
